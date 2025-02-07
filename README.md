@@ -1,5 +1,7 @@
 # FastLane Frontrunner Bot PYTHON
 
+💡We also have a Golang version of the bot [Here](https://github.com/FastLane-Labs/break-monad-frontrunner-bot)
+
 <p align="center">
   <img src="frontrunner-gif.gif" alt="Frontrunner Game Animation" width="600">
 </p>
