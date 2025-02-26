@@ -109,7 +109,7 @@ def play() -> None:
             signed_txn = account.sign_transaction(txn)
 
             # Send the signed transaction.
-            tx_hash = w3.eth.send_raw_transaction(signed_txn.rawTransaction)
+            tx_hash = w3.eth.send_raw_transaction(signed_txn.raw_transaction)
             logger.info(f"Sent transaction with nonce {nonce}. Tx hash: {tx_hash.hex()}")
         except Exception as e:
             logger.error(f"Error sending transaction with nonce {nonce}: {e}")
