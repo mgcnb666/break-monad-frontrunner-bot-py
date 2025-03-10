@@ -13,5 +13,5 @@ if __name__ == "__main__":
 
     # Output the private key and address
     print(f"Private Key: {private_key} !DONT SHARE THIS!")
-    print(f"Public Address: {address} <-- send Testnet DMON to this address to play")
+    print(f"Public Address: {address} <-- send Testnet MON to this address to play")
 

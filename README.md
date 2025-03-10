@@ -31,6 +31,17 @@ rpc_url = 'your_rpc_url_here'
 private_key = 'your_private_key_here'
 ```
 
+```
+London: https://rpc.monad-testnet-2.fastlane.xyz/b3qFoDfY9sR44yRyOeHAfyj9dpEXVoOC
+Bogota: https://rpc.monad-testnet-3.fastlane.xyz/j6EsEZHfw9Iqrp7DUX5e1aLUk85d1Yzw
+Singapore: https://rpc.monad-testnet-5.fastlane.xyz/FFHEYATiGl2Q83xOnf71ltrqZ57q9U1W
+```
+
+Contract Address:
+```
+0xBce2C725304e09CEf4cD7639760B67f8A0Af5bc4
+```
+
 ⚠️ IMPORTANT SECURITY NOTES:
 - Never share your private key or commit it to version control!
 - Store your private key securely and keep a backup
