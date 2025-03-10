@@ -74,11 +74,13 @@ def play() -> None:
 
     # Score check
     try:
-        _ ,wins, losses = contract.functions.getScore(account.address).call()
+        wins, losses = contract.functions.getScore(account.address).call()
+
         if wins > 0 or losses > 0:
             logger.info(f"It looks like it's not the first time: you won {wins} times and lost {losses} times.")
         else:
             logger.info("It looks like it's the first time you play. Good luck!")
+            
     except Exception as e:
         logger.error(f"Failed to get score: {e} - Skipping...")
 
