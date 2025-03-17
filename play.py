@@ -20,19 +20,19 @@ class Config:
     TARGET_CONTRACT = '0xBce2C725304e09CEf4cD7639760B67f8A0Af5bc4'
     
     # Gas相关设置
-    GAS_THRESHOLD = 150  # Gas Price阈值（Gwei）
-    MAX_GAS_PRICE = 150  # 最高Gas Price限制（Gwei）
+    GAS_THRESHOLD = 1000  # Gas Price阈值（Gwei）
+    MAX_GAS_PRICE = 1000  # 最高Gas Price限制（Gwei）
     MONITOR_GAS_PRICE_BONUS = 1  # 监控地址Gas价格的额外增加值
     
     # 监控设置
     ENABLE_MONITOR = True  # 控制是否启用监控钱包功能
-    BLOCK_LIMIT = 50  # 监控特定地址的区块数量限制
+    BLOCK_LIMIT = 10  # 监控特定地址的区块数量限制
     ANALYSIS_INTERVAL = 10  # 分析间隔（秒）
     
     # 自动更新设置
-    AUTO_UPDATE_INTERVAL_MINUTES = 5  # 自动更新监控地址的时间间隔（分钟）
-    AUTO_UPDATE_MIN_TX_COUNT = 20  # 自动添加监控地址所需的最小交易次数
-    AUTO_UPDATE_BLOCK_SCAN_LIMIT = 500  # 自动更新时扫描的区块数量
+    AUTO_UPDATE_INTERVAL_MINUTES = 1  # 自动更新监控地址的时间间隔（分钟）
+    AUTO_UPDATE_MIN_TX_COUNT = 10  # 自动添加监控地址所需的最小交易次数
+    AUTO_UPDATE_BLOCK_SCAN_LIMIT = 100  # 自动更新时扫描的区块数量
 
 # 全局监控地址集合（使用内存存储替代文件）
 MONITOR_ADDRESSES: set = set() 
